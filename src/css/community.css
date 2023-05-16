@@ -1,0 +1,46 @@
+.community {
+    background-image: url(../images/image\ 5.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.community-text {
+    background-color: rgb(250, 250, 250, 0.7);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.community-text h2, .community-text p {
+    margin: 0;
+}
+.community-text h2 {
+    font-size: 30px;
+    font-weight: 900;
+}
+.community-text h2 span {
+    color: #F97B22;
+}
+.community-text p {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.community-text button {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background-color: #F97B22;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.community-text button:hover {
+    background-color: #f8ae7a;
+    color: black;
+    scale: 1.1;
+    transition: all 0.5s ease;
+}

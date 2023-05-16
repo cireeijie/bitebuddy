@@ -1,7 +1,13 @@
+import FindNextBiteHero from "../components/findNextBiteHero";
+import Community from "../components/community";
+import FindNextBiteContent from "../components/findNextBiteContent";
+
 const FindYourNextBite = () => {
     return (
         <>
-        <h1>Find</h1>
+        <FindNextBiteHero/>
+        <FindNextBiteContent/>
+        <Community/>
         </>
     )
 }

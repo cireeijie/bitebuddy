@@ -1,6 +1,7 @@
 import Hero from '../components/hero';
 import AboutSection from '../components/aboutSection';
 import Spotlight from '../components/spotlight';
+import Community from '../components/community';
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <Hero/>
             <AboutSection/>
             <Spotlight/>
+            <Community/>
         </>
     )
 }

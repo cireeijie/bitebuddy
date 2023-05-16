@@ -5,6 +5,7 @@ import Home from './pages/home';
 import About from './pages/about';
 import Contact from './pages/contact';
 import FindYourNextBite from './pages/findYourNextBite';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/findYourNextBite' element={<FindYourNextBite/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );

@@ -1,0 +1,124 @@
+.next-bite-cards {
+    width: 100%;
+    height: 500px;
+}
+.next-bite-title {
+    margin: 40px 0 30px 60px;
+    display: flex;
+    flex-direction: column;
+}
+.next-bite-title span:nth-child(1) {
+    color: #F97B22;
+    font-weight: 900;
+    font-size: 40px;
+}
+.next-bite-title span:nth-child(2) {
+    font-size: 15px;
+}
+.next-bite-cards {
+    display: flex;
+    justify-content: space-around;
+}
+.next-bite-card {
+    width: 25%;
+    height: 90%;
+}
+.card-image-1 {
+    width: 100%;
+    height: 40%;
+    background-image: url(../images/image\ 8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-image-2 {
+    width: 100%;
+    height: 40%;
+    background-image: url(../images/image\ 9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-image-3 {
+    width: 100%;
+    height: 40%;
+    background-image: url(../images/image\ 10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-desc {
+    width: 100%;
+    height: 50%;
+    padding-top: 10px;
+    display: flex;
+}
+.card-desc-logo {
+    width: 30%;
+}
+.card-desc-logo img {
+    width: 100%;
+    padding: 0 10px;
+}
+.card-desc-text {
+    width: 70%;
+    height: 100%;
+}
+.card-desc-text .title {
+    color: #F97B22;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0 10px;
+}
+.card-desc-reps {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 7px;
+    height: 100%;
+}
+.card-desc-reps-item {
+    display: flex;
+    gap: 10px;
+    height: 55px;
+    align-items: center;
+    position: relative
+}
+.desc-reps-item {
+    width: 25px;
+    height: 25px;
+}
+.card-desc-reps-item span {
+    font-size: 11px;
+    width: 200px;
+}
+.card-buttons {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    
+}
+.card-buttons button:nth-child(1) {
+    background-color: #D9D9D9;
+    width: 50%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.card-buttons button:nth-child(2) {
+    background-color: #F97B22;
+    width: 50%;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.card-buttons button:nth-child(1):hover {
+    background-color: #717171;
+    color: white;
+    transition: all 0.5s ease;
+}
+.card-buttons button:nth-child(2):hover {
+    color: black;
+    background-color: #f8ae7a;
+    transition: all 0.5s ease
+}

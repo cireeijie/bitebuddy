@@ -1,7 +1,14 @@
+import AboutHero from "../components/aboutHero";
+import AboutContent from "../components/aboutContent";
+import Community from "../components/community";
+
+
 const About = () => {
     return (
         <>
-            <h1>About Page</h1>
+            <AboutHero/>
+            <AboutContent/>
+            <Community/>
         </>
     )
 }

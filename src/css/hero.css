@@ -22,7 +22,7 @@
 }
 
 .hero-context h2 {
-    font-size: 55px;
+    font-size: 50px;
     text-align: center;
     margin: 0;
 }
@@ -48,21 +48,31 @@
     outline: none;
     margin-right: 20px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 14px;
     cursor: pointer;
 }
-
 .hero-buttons button:nth-child(1) {
     border: 1px solid #F97B22;
     color: #F97B22;
     padding: 8px 30px;
     width: 127px;
 }
-
 .hero-buttons button:nth-child(2) {
     background-color: #F97B22;
     border: none;
     color: white;
     padding: 8px 30px;
     width: 127px;
+}
+.hero-buttons button:nth-child(1):hover {
+    color: black;
+    background-color: #f8ae7a;
+    scale: 1.1;
+    transition: all 0.5s ease;
+}
+.hero-buttons button:nth-child(2):hover {
+    color: black;
+    background-color: #f8ae7a;
+    scale: 1.1;
+    transition: all 0.5s ease;
 }
