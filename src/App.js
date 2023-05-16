@@ -6,6 +6,7 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import FindYourNextBite from './pages/findYourNextBite';
 import Footer from './components/footer';
+import BackToTopButton from './components/backToTopButton';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/findYourNextBite' element={<FindYourNextBite/>}/>
         </Routes>
         <Footer/>
+        <BackToTopButton/>
       </BrowserRouter>
     </>
   );

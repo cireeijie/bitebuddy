@@ -1,6 +1,6 @@
 import "../css/navbar.css"
 import logo from "../images/bb-logo 1.png";
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 
 
@@ -9,11 +9,11 @@ const Navbar = () => {
         <header className='navbar-section'>
             <img src={logo} alt="logo"/>
             <ul className='navlist'>
-                <Link to="/" className="nav-items">Home</Link>
-                <Link to="/about" className="nav-items">About</Link>
-                <Link to="findYourNextBite" className="nav-items">Find Your Next Bite</Link>
-                <Link to="/contact" className="nav-items">Contact</Link>
-                <Link to="/findYourNextBite"><button>Bite Now</button></Link>
+                <NavLink to="/" className="nav-items">Home</NavLink>
+                <NavLink to="/about" className="nav-items">About</NavLink>
+                <NavLink to="findYourNextBite" className="nav-items">Find Your Next Bite</NavLink>
+                <NavLink to="/contact" className="nav-items">Contact</NavLink>
+                <NavLink to="/findYourNextBite"><button>Bite Now</button></NavLink>
                 <span>+</span>
             </ul>
         </header>
