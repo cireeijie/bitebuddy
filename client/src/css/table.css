@@ -1,0 +1,39 @@
+.tables-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.table-container {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all .3s ease-in-out;
+}
+
+.table-container span {
+    pointer-events: none;
+}
+
+.table-container:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.selected-table {
+    transform: scale(1.2);
+    background-color: #F97B22;
+    color: white;
+}
+
+.reserved-table {
+    background-color: #008000;
+    opacity: .4;
+    color: white;
+    pointer-events: none;
+}
+

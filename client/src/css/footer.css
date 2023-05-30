@@ -1,0 +1,121 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #F97B22;
+    color: rgb(255, 255, 255);
+}
+
+.footer-container {
+    width: 80%;
+    max-width: 1080px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+.visit-us, .useful-links, .operating-hours, .follow-us {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.visit-us span:nth-child(1), .useful-links span, .operating-hours .title, .follow-us .title {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+.visit-us span:nth-child(2), .useful-links .link-items, .schedule, .social-links{
+    height: 60%;
+    font-size: 14px;
+}
+.link-items, .schedule {
+    display: flex;
+    flex-direction: column;
+}
+.link-item {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 8px;
+}
+.link-item:hover {
+    text-decoration: underline;
+    scale: 1.02;
+    transition: all 0.3s ease;
+}
+.schedule span {
+    padding-bottom: 8px;
+}
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+.social-links span {
+    font-size: 30px;
+    cursor: pointer;
+}
+.social-links span:hover {
+    scale: 1.1;
+    transition: all 0.4s ease;
+}
+.copyright {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+@media (max-width: 769px) {
+    .visit-us span:nth-child(1), .useful-links span, .operating-hours .title, .follow-us .title {
+        height: 40%;
+        display: flex;
+        align-items: center;
+        font-weight: 900;
+        font-size: 15px;
+    }
+    .visit-us span:nth-child(2), .useful-links .link-items, .schedule, .social-links{
+        height: 60%;
+        font-size: 12px;
+    }
+    .social-links span {
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+@media (max-width: 426px) {
+    footer {
+        height: auto;
+    }
+    .information {
+        display: flex;
+        flex-direction: column;
+    }
+    .visit-us, .useful-links, .operating-hours, .follow-us {
+        width: 20%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .visit-us span:nth-child(1), .useful-links span, .operating-hours .title, .follow-us .title {
+        height: auto;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        font-weight: 900;
+        font-size: 15px;
+        padding-left: 30px;
+        
+    }
+    .visit-us span:nth-child(2), .useful-links .link-items, .schedule, .social-links{
+        height: auto;
+        font-size: 11px;
+        padding-left: 30px;
+        width: 200px;
+        padding-top: 8px;
+    }
+}

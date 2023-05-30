@@ -1,0 +1,81 @@
+.reservation-form-container {
+    padding: 20px;
+}
+
+.reservation-form-container h2,
+.reservation-form-container p {
+    margin: 0;
+}
+
+.reservation-form-container h2 {
+    color: #F97B22;
+    margin-bottom: -5px !important;
+}
+
+.reservation-form .reservation .sub {
+    font-size: 12px;
+}
+
+.reservation-form .reservation .name {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 0;
+    flex-direction: row;
+}
+
+.reservation-form .reservation .reserve-name,
+.reservation-form .reservation .table {
+    color: #F97B22;
+    padding-left: 5px;
+}
+
+.reservation-form .reservation .table-no {
+    font-size: 14px;
+}
+
+.reservation-form .reservation .input-item {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.reservation-form .reservation .input-item input {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.reservation-form .reservation .action-btns {
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.reservation-form .reservation .action-btns .cancel,
+.reservation-form .reservation .action-btns .submit {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.reservation-form .reservation .action-btns button {
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.reservation-form .reservation .action-btns button:hover {
+    transform: scale(1.05);
+}
+
+.reservation-form .reservation .action-btns .cancel {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.reservation-form .reservation .action-btns .submit {
+    background-color: #F97B22;
+    color: white;
+}

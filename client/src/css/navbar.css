@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sticky {
+    background-color: white !important;
+    height: 80px !important;
+    z-index: 999;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 0;
+    height: 100px;
+    transition: all .3s ease-in-out;
+}
+
+.navbar-container {
+    width: 80%;
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container .logo {
+    height: 40px;
+}
+
+.navbar-container .navlist {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navlist .nav-items {
+    text-decoration: none;
+    color: #404040;
+    font-size: 14px;
+    opacity: .8;
+    border-bottom: 0 solid #F97B22;
+}
+
+.navlist button {
+    border: none;
+    background-color: #F97B22;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+
+.navlist button:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.navlist .nav-items:hover {
+    opacity: 1;
+    animation: hover .3s ease-in-out;
+    border-bottom: 2px solid #F97B22;
+    transform: scale(1.04);
+}
+
+.nav-items.active {
+    border-bottom: 2px solid #F97B22;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.user-section {
+    height: auto !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 3px 8px;
+    border: 1px solid #40404041;
+    background-color: white !important;
+    border-radius: 3px;
+}
+
+.user-name .user {
+    font-size: 14px;
+}
+
+.user-name .user .firstname {
+    text-transform: capitalize;
+}
+
+.user-detail {
+    position: relative;
+}
+
+.user-detail:hover {
+    cursor: pointer;
+}
+
+.user-detail .user-button{
+    display: flex;
+    align-items: center;
+}
+
+.user-detail .user-button button {
+    border: none;
+    background-color: white;
+    color: #404040;
+    padding: 0;
+}
+
+.user-detail .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #F97B22;
+}
+
+.drop-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-options {
+    position: absolute;
+    right: -8px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    font-size: 14px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.user-options a {
+    text-decoration: none;
+    color: #404040;
+}
+
+.user-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    transition: all .2s ease-in-out;
+    color: #404040;
+}
+
+.user-option:hover {
+    background-color: #F97B22;
+    color: white;
+}
+
+.sort-down {
+    transition: all .3s ease-in-out;
+    margin-top: -5px;
+}
+
+.sort-up {
+    transform: rotate(180deg);
+    transition: all .3s ease-in-out;
+    margin-bottom: -5px;
+}
+
+@keyframes hover {
+    0% {
+        transform: scale(1);
+        border-bottom: 0 solid #F97B22;
+    }
+    100% {
+        transform: scale(1.04);
+        border-bottom: 2px solid #F97B22;
+    }
+}
+
+@media (max-width: 831px) {
+    .navbar-container .navlist {
+        padding: 20px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        opacity: 1;
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        transition: all 0.3s ease;
+    }
+    .adjust {
+        background-color: rgba(255, 255, 255) !important;
+        transform: translateY(-20px); 
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    }
+    #hidden {
+        opacity: 0;
+    }
+    
+    .navlist .nav-items {
+        font-size: 18px;
+    }
+    .navlist button {
+        border: none;
+        background-color: #F97B22;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 3px;
+    }
+    .fa-bars {
+        display: flex;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        font-size: 25px;
+        z-index: 100;
+    }
+}
+
+@media (max-width: 426px) {
+    .navlist .nav-items {
+        font-size: 17px;
+    }
+}
+@media (max-width: 321px) {
+    .navlist .nav-items {
+        font-size: 15px;
+    }
+}

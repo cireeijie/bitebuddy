@@ -1,0 +1,43 @@
+.get-in-touch {
+    width: 100%;
+    height: 400px;
+    background-color: #fcb17b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mail {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+.icon span{
+    font-size: 50px;
+    display: flex;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-content-map {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+.google-map {
+    width: 100%;
+    height: 100%;
+}
