@@ -1,0 +1,60 @@
+.reserve-form-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reserve-form-container {
+    display: flex;
+    background-color: white;
+    border-radius: 3px;
+    animation: zoom-in .3s ease-in-out;
+}
+
+.total-tables {
+    max-width: 400px;
+    width: 80%;
+    min-width: 300px;
+    padding: 30px 20px;
+}
+
+.total-tables h2 {
+    margin: 0;
+}
+
+.total-tables .info {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.total-tables .info .reserved,
+.total-tables .info .available {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.total-tables .info .reserved .table-info-icon {
+    color: green;
+}
+
+.total-tables .info .available .table-info-icon {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+@keyframes zoom-in {
+    0% {
+        transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

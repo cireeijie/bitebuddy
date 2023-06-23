@@ -1,0 +1,29 @@
+.upload-modal {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 3px;
+    animation: zoom-in .3s ease-in-out;
+}
+
+.upload-container button {
+    margin: 0;
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #F97B22;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}

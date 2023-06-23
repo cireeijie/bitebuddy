@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+a {
+  color: #F97B22;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}

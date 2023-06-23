@@ -1,0 +1,78 @@
+.card-container {
+    width: 315px;
+    background-color: #f9f9f9;
+    transition: all .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-container:hover {
+    transform: scale(1.04);
+}
+
+.card-info {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.logo img {
+    width: 67px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info .title {
+    font-size: 16px;
+    color: #F97B22;
+    font-weight: 900;
+}
+
+.locations,
+.open-hours,
+.seats {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 15px;
+}
+
+.locations .location,
+.open-hours .hours,
+.seats .total-seats {
+    font-size: 10px;
+}
+
+.action-btns {
+    display: flex;
+}
+
+.more-info,
+.reserve-now {
+    flex: 1;
+    border: none;
+    font-size: 14px;
+}
+
+.more-info {
+    background-color: #D9D9D9;
+    padding: 10px 0;
+}
+
+.reserve-now {
+    background-color: #F97B22;
+    color: white;
+}
+
+.more-info:hover,
+.reserve-now:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,128 @@
+.vis-and-mis {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 30px 0;
+}
+
+.vis-mis-container {
+    width: 80%;
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.vmg-icon {
+    font-size: 70px;
+    width: 100% !important;
+    color: #F97B22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.vis-container, .mission-container {
+    flex: 1;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+}
+.vis-container {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.mission-container {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.vis-title, .mission-title  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vis-desc, .mission-desc {
+    display: flex;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.vis-title span, .mission-title span {
+    font-size: 20px;
+    font-weight: 900;
+}
+.goal-container {
+    flex: 1;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    padding: 30px 10px;
+}
+.goal-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goal-desc {
+    width: 100%;
+    padding: 0 15px;
+    font-size: 14px;
+}
+.goal-title span {
+    font-size: 27px;
+    font-weight: 900;
+}
+
+.goal-desc ul {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.goal-desc ul li {
+    font-size: 14px;
+    padding-top: 7px;
+    text-align: center;
+    list-style-type: none;
+}
+
+@media (max-width: 1025px) {
+    .vis-title span, .mission-title span, .goal-title span {
+        font-size: 18px;
+    }
+    .vmg-icon {
+        font-size: 60px;
+    }
+    .vis-desc span, .goal-desc ul li, .mission-desc span {
+        font-size: 13px;
+    }
+}
+@media (max-width: 769px) {
+    .vis-title span, .mission-title span, .goal-title span {
+        font-size: 16px;
+    }
+    .vmg-icon {
+        font-size: 55px;
+    }
+    .vis-desc span, .goal-desc ul li, .mission-desc span {
+        font-size: 11px;
+    }
+}
+@media (max-width: 426px) {
+    .vis-mis-container {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,12 @@
+.find-next-bite-hero {
+    background-image: url(../images/image\ 11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+@media (max-width: 1025px) {
+    .find-next-bite-hero {
+        background-position: center;
+    }
+}
