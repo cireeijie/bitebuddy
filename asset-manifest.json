@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bitebuddy/static/css/main.946ed275.css",
+    "main.js": "/bitebuddy/static/js/main.faa039f8.js",
+    "static/js/787.01cfcb08.chunk.js": "/bitebuddy/static/js/787.01cfcb08.chunk.js",
+    "static/media/about-us.jpg": "/bitebuddy/static/media/about-us.474f8508cf4376d3d876.jpg",
+    "static/media/forbidden.jpg": "/bitebuddy/static/media/forbidden.42a08ef169b9c31c3e62.jpg",
+    "static/media/toast-dinner 1.png": "/bitebuddy/static/media/toast-dinner 1.faaa4b884143458c51e3.png",
+    "static/media/image 11.png": "/bitebuddy/static/media/image 11.32cf14230a668b534d9b.png",
+    "static/media/image 5.png": "/bitebuddy/static/media/image 5.2332d16d7236db5d8a4b.png",
+    "static/media/image 7.png": "/bitebuddy/static/media/image 7.1e45a01a91042ac54e3e.png",
+    "static/media/image 4.png": "/bitebuddy/static/media/image 4.142a71d915a69094352d.png",
+    "static/media/image 3.png": "/bitebuddy/static/media/image 3.f008f1be565618e1eaa2.png",
+    "static/media/image 2.png": "/bitebuddy/static/media/image 2.699b581bf44f8bfb4e43.png",
+    "static/media/bitebuddy.png": "/bitebuddy/static/media/bitebuddy.21dcba35f731a95c0bb4.png",
+    "index.html": "/bitebuddy/index.html",
+    "main.946ed275.css.map": "/bitebuddy/static/css/main.946ed275.css.map",
+    "main.faa039f8.js.map": "/bitebuddy/static/js/main.faa039f8.js.map",
+    "787.01cfcb08.chunk.js.map": "/bitebuddy/static/js/787.01cfcb08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.946ed275.css",
+    "static/js/main.faa039f8.js"
+  ]
+}
