@@ -13,7 +13,7 @@ const UserPage = ({currentUser, reserves, updateUser, errMessage, isVerified}) =
     const [isDisabled, setIsDisabled] = useState(true);
 
     const server = {
-        host: 'http://localhost:3001',
+        host: 'http://13.236.165.58:3001',
         image: '/images/'
     }
 

@@ -9,7 +9,7 @@ const LoginForm = ({openLogin, closeLogin, toSignUp}) => {
     const navigate = useNavigate()
 
     const server = {
-        host: 'http://localhost:3001',
+        host: 'http://13.236.165.58:3001',
         login: '/login'
     }
 

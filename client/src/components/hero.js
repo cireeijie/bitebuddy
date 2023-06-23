@@ -15,7 +15,7 @@ const Hero = () => {
     return (
         <section className="hero-section">
             <div className="hero-container">
-                <div className='hero-context' data-aos="fade-right" data-aos-duration="2000">
+                <div className='hero-context' >
                     <h2>Welcome to <span className='bite-buddy'>BiteBuddy!</span></h2>
                     <p>Sign up now and receive a special offer on your first reservation with BiteBuddy. Don't miss out on this tasty opportunity!</p>
                     <div className="hero-buttons">

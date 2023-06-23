@@ -6,7 +6,7 @@ const UploadImage = ({open , close, id, updateUser}) => {
     const [ file, setFile ] = useState()
 
     const server = {
-        host: 'http://localhost:3001',
+        host: 'http://13.236.165.58:3001',
         upload: '/upload'
     }
 
